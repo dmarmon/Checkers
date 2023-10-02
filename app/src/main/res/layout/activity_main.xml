@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#888888"
+    android:orientation="vertical">
+    <com.example.checkers.SquareLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#bbbbbb"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board0"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board1"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board2"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board3"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board4"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board5"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board6"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board7"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board8"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board9"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board10"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board11"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board12"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board13"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board14"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board15"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board16"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board17"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board18"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board19"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board20"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board21"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board22"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board23"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board24"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board25"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board26"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board27"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board28"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board29"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board30"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board31"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board32"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board33"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board34"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board35"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board36"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board37"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board38"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board39"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board40"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board41"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board42"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board43"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board44"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board45"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board46"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board47"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board48"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board49"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board50"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board51"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board52"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board53"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board54"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board55"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width="fill_parent" android:layout_height="0sp" android:layout_weight="1">
+            <ImageView  android:id="@+id/board56"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board57"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board58"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board59"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board60"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board61"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board62"
+                android:gravity="center" android:layout_margin="1sp" android:background="#000000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+            <ImageView  android:id="@+id/board63"
+                android:gravity="center" android:layout_margin="1sp" android:background="#ff0000"
+                android:layout_width="0sp" android:layout_weight="1" android:layout_height="fill_parent"/>
+        </LinearLayout>
+    </com.example.checkers.SquareLayout>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="25sp"
+        android:paddingTop="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+</LinearLayout>
